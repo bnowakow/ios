@@ -69,57 +69,62 @@ final class ConfigManager {
 // Bluetooth
 extension ConfigManager {
     private var bluetoothSettings: [String: Any] {
-        guard let dictionary = settings[Key.bluetooth] as? [String: Any] else {
-            fatalError("Can't read \(Key.bluetooth) from plist")
-        }
+//        guard
+        let dictionary = (settings[Key.bluetooth] as? [String: Any] ?? settings)!
+//        else {
+            // TODO
+            //fatalError("Can't read \(Key.bluetooth) from plist")
+//        }
         
         return dictionary
     }
     
     var serviceUUID: String {
-        return value(for: Key.serviceUUID, dictionary: bluetoothSettings)
+        return value(for: Key.serviceUUID, dictionary: bluetoothSettings) ?? "serviceUUID not set"
     }
     
     var v2CharacteristicId: String {
-         return value(for: Key.v2CharacteristicId, dictionary: bluetoothSettings)
+         return value(for: Key.v2CharacteristicId, dictionary: bluetoothSettings) ?? "v2CharacteristicId not set"
     }
     
     var orgId: String {
-        return value(for: Key.orgId, dictionary: bluetoothSettings)
+        return value(for: Key.orgId, dictionary: bluetoothSettings) ?? "orgId not set"
     }
     
     var protocolVersion: Int {
-        return value(for: Key.protocolVersion, dictionary: bluetoothSettings)
+        return value(for: Key.protocolVersion, dictionary: bluetoothSettings) ?? 5
     }
     
     var centralScanInterval: Int {
-        return value(for: Key.centralScanInterval, dictionary: bluetoothSettings)
+        return value(for: Key.centralScanInterval, dictionary: bluetoothSettings) ?? 60
     }
     
     var centralScanDuration: Int {
-        return value(for: Key.centralScanDuration, dictionary: bluetoothSettings)
+        return value(for: Key.centralScanDuration, dictionary: bluetoothSettings) ?? 60
     }
     
     var dataExpirationDays: Int {
-        return value(for: Key.dataExpirationDays, dictionary: bluetoothSettings)
+        return value(for: Key.dataExpirationDays, dictionary: bluetoothSettings) ?? 60
     }
 }
 
 // PWA
 extension ConfigManager {
     private var pwaSettings: [String: Any] {
-        guard let dictionary = settings[Key.pwa] as? [String: Any] else {
-            fatalError("Can't read \(Key.pwa) from plist")
-        }
-        
+//        guard
+            let dictionary = settings[Key.pwa] as? [String: Any] ?? settings
+//        else {
+//            fatalError("Can't read \(Key.pwa) from plist")
+//        }
+
         return dictionary
     }
     
     var pwaHost: String {
-        return value(for: Key.host, dictionary: pwaSettings)
+        return value(for: Key.host, dictionary: pwaSettings) ?? "safesafe.app"
     }
     
     var pwaScheme: String {
-        return value(for: Key.scheme, dictionary: pwaSettings)
+        return value(for: Key.scheme, dictionary: pwaSettings) ?? "https"
     }
 }
