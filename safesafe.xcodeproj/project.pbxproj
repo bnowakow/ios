@@ -13,6 +13,8 @@
 		82ED892F2448431500305D4B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED892E2448431500305D4B /* NotificationManager.swift */; };
 		82ED89302448431500305D4B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED892E2448431500305D4B /* NotificationManager.swift */; };
 		9FA2FAD28A5ABBCCC3EA3A1E /* Pods_safesafe_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A29642DBCEBA27DA1E2E483 /* Pods_safesafe_Live.framework */; };
+		ACDADE6A245C42D200A6B003 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACDADE69245C42D100A6B003 /* GoogleService-Info.plist */; };
+		ACDADE70245C4BD000A6B003 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACDADE6F245C4BD000A6B003 /* GoogleService-Info.plist */; };
 		D5308638243EF86E00FCA5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5308637243EF86E00FCA5DD /* AppDelegate.swift */; };
 		D530863A243EF86E00FCA5DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5308639243EF86E00FCA5DD /* SceneDelegate.swift */; };
 		D5308641243EF87000FCA5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5308640243EF87000FCA5DD /* Assets.xcassets */; };
@@ -49,8 +51,6 @@
 		D5B207C7244822890083FCEC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B207C6244822890083FCEC /* Logger.swift */; };
 		D5B207C8244822890083FCEC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B207C6244822890083FCEC /* Logger.swift */; };
 		D5B207CB244838EA0083FCEC /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B207CA244838EA0083FCEC /* URLConstants.swift */; };
-		D5B207FB24499A830083FCEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5B207F824499A830083FCEC /* GoogleService-Info.plist */; };
-		D5B207FE24499A830083FCEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5B207FA24499A830083FCEC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +74,8 @@
 		82ED89322448432200305D4B /* safesafe Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "safesafe Live.entitlements"; sourceTree = "<group>"; };
 		89C49B1DA05BC54A647CE1DE /* Pods_safesafe_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safesafe_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A29642DBCEBA27DA1E2E483 /* Pods_safesafe_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safesafe_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDADE69245C42D100A6B003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Dev/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ACDADE6F245C4BD000A6B003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "Live/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D5308634243EF86E00FCA5DD /* safesafe Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safesafe Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5308637243EF86E00FCA5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5308639243EF86E00FCA5DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,8 +101,6 @@
 		D5B207CA244838EA0083FCEC /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		D5B207D124486E5C0083FCEC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		D5B207D324486E5C0083FCEC /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
-		D5B207F824499A830083FCEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D5B207FA24499A830083FCEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA009D7C4A0F68EBEF9D5F59 /* Pods-safesafe Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safesafe Live.debug.xcconfig"; path = "Target Support Files/Pods-safesafe Live/Pods-safesafe Live.debug.xcconfig"; sourceTree = "<group>"; };
 		F2C58D5B5ED39446FEB6171F /* Pods-safesafe Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safesafe Live.release.xcconfig"; path = "Target Support Files/Pods-safesafe Live/Pods-safesafe Live.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -282,7 +282,7 @@
 		D5B207F724499A830083FCEC /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				D5B207F824499A830083FCEC /* GoogleService-Info.plist */,
+				ACDADE6F245C4BD000A6B003 /* GoogleService-Info.plist */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 		D5B207F924499A830083FCEC /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				D5B207FA24499A830083FCEC /* GoogleService-Info.plist */,
+				ACDADE69245C42D100A6B003 /* GoogleService-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
@@ -378,7 +378,7 @@
 			files = (
 				D5308644243EF87000FCA5DD /* LaunchScreen.storyboard in Resources */,
 				D5308641243EF87000FCA5DD /* Assets.xcassets in Resources */,
-				D5B207FB24499A830083FCEC /* GoogleService-Info.plist in Resources */,
+				ACDADE70245C4BD000A6B003 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B207BC24471AA90083FCEC /* LaunchScreen.storyboard in Resources */,
-				D5B207FE24499A830083FCEC /* GoogleService-Info.plist in Resources */,
 				D5B207BD24471AA90083FCEC /* Assets.xcassets in Resources */,
+				ACDADE6A245C42D200A6B003 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +719,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = HU9FKSEQXD;
+				DEVELOPMENT_TEAM = 2SJ5BYZ7X2;
 				INFOPLIST_FILE = "safesafe/Info-dev.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
