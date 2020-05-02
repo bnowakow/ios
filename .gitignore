@@ -37,6 +37,7 @@ safesafe/resources/Dev/GoogleService-Info.plist
 safesafe/resources/Live/GoogleService-Info.plist
 safesafe/resources/Stage/GoogleService-Info.plist
 safesafe/resources/Config.plist
+Dev/GoogleService-Info.plist 
 
 ## Playgrounds
 timeline.xctimeline
